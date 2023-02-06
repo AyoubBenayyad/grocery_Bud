@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;;
+    background-color: #F1F5F8;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 600px;
+    min-height: 200px;
+    background-color: white;
+    box-shadow: 2px 1px 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: xx-large;
+    color: rgb(6, 50, 81);
+    margin: 1rem;
+    font-weight:500;
+    letter-spacing: 2px;
+}
+.add{
+    display: flex;
+    gap: 0;
+    border-radius:10px;
+    background-color: rgb(215, 228, 239);
+}
+.add input{
+    background: transparent;
+    border: none;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+.add button{
+    background-color: hsl(205.3, 85.6%, 81%);
+    border: none;
+    width: 60px;
+    border-radius: 0px 10px 10px 0px;
+    font-family: monospace;
+    transition: background-color 0.4s;
+    transition: color 0.5s;
+}
+.add button:hover{
+    background-color:rgb(73, 166, 233);
+    color: whitesmoke;
+    
+}
+.msg{
+    width: 400px;
+    height: 15px;
+    margin-top: 2rem;
+    display: grid;
+    place-content: center;
+    border-radius: 3px;
+    font-family: monospace;
+}
+.sucess{
+    background-color: rgb(134, 237, 163);
+    display: none;
+}
+.empty,.removed{
+    background-color: rgb(247, 152, 152);
+    display: none;
+}
+ol{
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    width: 50%;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.item{
+    margin-top: 0.5rem;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    letter-spacing: 3px;
+    transition: background-color 0.5s;
+}
+.item:hover{
+    background-color: rgb(215, 228, 239);
+}
